@@ -10,8 +10,8 @@ res.send ('Hello World') ;
 
 });
 
-
- app.listen(5600, function () {
+const port = process.env.PORT || 5200 ;
+ app.listen(port, function () {
     console.log('Server is running..');
 });
 
