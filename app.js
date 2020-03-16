@@ -1,6 +1,5 @@
 const express =require ('express') ;
-const sql = require ('mssql') ;
-var url = require('url');
+
 const app= express() ;
 
 
